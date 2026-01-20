@@ -6,6 +6,5 @@ def add(a:int, b:int):
     return a+b
 
 
-
-def index(request):
-    return HttpResponse("Hello, World! This is a simple HTTP response from Django.")
+def home(request):
+    return HttpResponse("🎉 Django CI/CD Deployment Successful!")
